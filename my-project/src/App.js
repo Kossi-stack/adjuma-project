@@ -3,23 +3,23 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="h-screen w-screen bg-sign-in">
-      <div class="flex items-center justify-center">
-        <div class="text-white items-center justify-center mt-28 px-8 py-2 w-2/6 text-center bg-black/50 rounded-xl">
-          <h1 class="font-bold text-xl pb-2 ">Kuku's Hair</h1>
-          <p class="text-sm"> 
+    <div class="h-screen w-screen bg-no-repeat bg-cover bg-sign-in">
+      <div class="flex h-screen items-center justify-center pt-28">
+        <div class="text-white items-center justify-center mr-28 mb-28 mt-4 px-8 py-2 w-2/6 text-center bg-black/30 rounded-xl">
+          <h1 class="font-bold text-xl">Kuku's Hair</h1>
+          <p class="text-xs"> 
             This is the official page to manage kuku's orders, respond to
-            bookings and more. Log in to <br/> continue.
+            bookings and more. Log in to continue.
           </p>
         </div>
-        <div class="rounded-xl p-12 bg-white mt-28">
+        <div class="rounded-xl p-12 bg-white mr-16">
         <div>
-          <div class="px-12">
+          <div class="pl-12 w-3/4">
             <img src={logo} />
           </div>
           <div>
-            <h2 class="font-bold text-center text-4xl pt-4">Welcome back</h2>
-            <p class="text-center text-sm pb-8">Sign in to your account</p>
+            <h2 class="font-bold text-center text-2xl pt-4">Welcome back</h2>
+            <p class="text-center text-xs text-gray-500 pb-8">Sign in to your account</p>
           </div>
           <form>
             <div class="mb-4">
@@ -42,7 +42,7 @@ function App() {
         </div>
       </div>
       </div>
-      <div class="text-white text-center text-sm py-8">
+      <div class="text-white text-xs text-center pt-2">
         <p>All rights reserved ...</p>
       </div>
     </div>
