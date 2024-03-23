@@ -72,9 +72,9 @@ function App() {
                 </p>
               )}
               <div className="mb-4">
-                <label className="">Email</label>
+                <label className="block">Email</label>
                 <input
-                  className="rounded-lg px-2 py-2 w-4/5 md:w-full border-[1px]"
+                  className=" block rounded-lg px-2 py-2 w-[300px]  border-[1px]"
                   type="email"
                   placeholder="Enter your email"
                   onChange={(e) => setEmail(e.target.value)}
@@ -94,7 +94,7 @@ function App() {
                   <input type="checkbox" />
                   <span className="ms-2">Remember me</span>
                 </label>
-                <a href="#" className=" px-4 text-pink-500">
+                <a href="#" className="text-pink-500">
                   Forgot password
                 </a>
               </div>
@@ -108,7 +108,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="text-white text-xs text-center pt-2">
+      <div className="text-black text-xs text-center">
         <p>All rights reserved ...</p>
       </div>
     </div>
